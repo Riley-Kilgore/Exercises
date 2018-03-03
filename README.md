@@ -5,5 +5,4 @@ Haskell:
 	I am using the book "Learn you a Haskell" to learn the content needed to solve different problems in Haskell, but as this book does not provide exercises to work
 	I am using exercises from the repository at https://github.com/noelmarkham/learn-you-a-haskell-exercises 
 C: 
-	For C I am using two books and both provide exercises, the first of these books is Deep C Programming, and the second is Hacking: The Art of Exploitation
-
+	For C I am using a book called Deep C Secrets.
