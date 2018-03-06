@@ -34,4 +34,5 @@ reverseColourOrder = reverse [Red .. Violet]
  - Hint: Integer division can be performed with the quot function: quot 7 2 = 3
  -}
 paintMix :: Colour -> Colour -> Colour
-paintMix c1 c2 = undefined
+paintMix c1 c2 = if c1 <= c2 then [c1 .. c2] !! quot (length [c1 .. c2]) 2
+                 else [c2 .. c1] !! quot (length [c2 .. c1]) 2
