@@ -36,7 +36,7 @@ hoSumInts :: Int -> Int -> Int
 hoSumInts = higherOrderSum (\x -> x*1)
 
 -- Create a new higher order method which generalises over the function provided by sumInts (That is, parameterize (+) :: Int -> Int -> Int) between a and b
--- This will give the ability to perform utilities such as the prodcut of all squares (or any other Int -> Int function) between a and b
+-- This will give the ability to perform utilities such as the product of all squares (or any other Int -> Int function) between a and b
 -- You will also need to generalise the base case
 -- You can also define the function signature yourself, which leaves you free to define the parameters and their order
 -- To be clear, your function will need to handle:
@@ -45,8 +45,15 @@ hoSumInts = higherOrderSum (\x -> x*1)
 --  - A function to apply to each value, op :: Int -> Int
 --  - A function to apply between each value, f :: Int -> Int -> Int
 --  - A value to return in the base case when a > b, z :: Int
-higherOrderSequenceApplication = undefined
+higherOrderSequenceApplication :: (Int -> Int) -> (Int -> Int -> Int) -> Int -> Int -> Int
+higherOrderSequenceApplication appFun betweenFun intA intB
+                               | intA == intB = appFun intA
+                               | otherwise =
+                               let (x:xs) = map appFun [intA..intB]
+                               in x `betweenFun` higherOrderSequenceApplication appFun betweenFun (intA + 1) intB
 
 -- Define a factorial method using the higherOrderSequenceAppliction
 hoFactorial :: Int -> Int
-hoFactorial = undefined
+hoFactorial intA
+            | intA == 0 = 1
+            | otherwise = higherOrderSequenceApplication (*1) (*) 1 intA
