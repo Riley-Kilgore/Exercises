@@ -51,21 +51,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="07Modules.hs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="07Modules.hs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/07Modules.hs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            <state relative-caret-position="153">
+              <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DistanceConversion.hs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DistanceConversion.hs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DistanceConversion.hs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="0">
+              <caret line="0" column="25" lean-forward="true" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -96,8 +96,8 @@
         <option value="$PROJECT_DIR$/04SyntaxInFunctions.hs" />
         <option value="$PROJECT_DIR$/05Recursion.hs" />
         <option value="$PROJECT_DIR$/06HigherOrderFunctions.hs" />
-        <option value="$PROJECT_DIR$/07Modules.hs" />
         <option value="$PROJECT_DIR$/DistanceConversion.hs" />
+        <option value="$PROJECT_DIR$/07Modules.hs" />
       </list>
     </option>
   </component>
@@ -268,12 +268,12 @@
       <workItem from="1520564967178" duration="945000" />
       <workItem from="1520648005897" duration="895000" />
       <workItem from="1520730461763" duration="1297000" />
-      <workItem from="1520892662371" duration="154000" />
+      <workItem from="1520892662371" duration="829000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12812000" />
+    <option name="totallyTimeSpent" value="13487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1061" extended-state="0" />
@@ -582,18 +582,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07Modules.hs">
+    <entry file="file://$PROJECT_DIR$/DistanceConversion.hs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="0">
+          <caret line="0" column="25" lean-forward="true" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DistanceConversion.hs">
+    <entry file="file://$PROJECT_DIR$/07Modules.hs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state relative-caret-position="153">
+          <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
           <folding />
         </state>
       </provider>

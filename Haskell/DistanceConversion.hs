@@ -1,4 +1,4 @@
-module DistanceConversions
+module DistanceConversion
 ( yardsToFeet
 , feetToInches
 , inchesToCentimetres
