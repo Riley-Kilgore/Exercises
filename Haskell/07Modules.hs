@@ -15,4 +15,4 @@ sqInToSqCm = areaConv inchesToCentimetres
 
 -- define a function for converting square chains (22 yards) to square metres
 sqChainsToSqM :: Float -> Float
-sqChainsToSqM = undefined
+sqChainsToSqM = areaConv (\x -> x*20.1168)
